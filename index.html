@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kingsukh Guest House — Purulia</title>
+  <meta name="description" content="Kingsukh Guest House in Purulia — Comfortable rooms, peaceful stay, and warm hospitality. Book your stay today." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- AOS (Animate On Scroll) CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ================= Nav ================= -->
+  <header class="nav">
+    <div class="container nav__wrap">
+      <a class="logo" href="#hero">Kingsukh <span>Guest House</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#rooms">Rooms</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn btn--primary small">Book Now</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Sticky Booking Bar -->
+  <div class="sticky-booking" id="stickyBooking">
+    <div class="container">
+      <div class="sticky-booking__content">
+        <div class="sticky-booking__text">
+          🏠 Ready to book your stay at Kingsukh Guest House?
+        </div>
+        <div class="sticky-booking__cta">
+          <a href="#rooms" class="btn btn--ghost btn--small">View Rooms</a>
+          <a href="#contact" class="btn btn--primary btn--small">Book Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= Hero (New) ================= -->
+  <section id="hero" class="hero hero--full">
+    <div class="hero__overlay"></div>
+    <div class="container hero__content" data-aos="fade-down">
+      <p class="eyebrow">Simple • Serene • Comfortable</p>
+      <h1>Welcome to <span>Kingsukh Guest House</span></h1>
+      <p class="hero__location">
+        <span class="icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+        </span>
+        Baranti Village, Purulia, West Bengal
+      </p>
+      <p class="hero__subtitle">Experience tranquility and comfort in the heart of nature. Where simple elegance meets serene surroundings for an unforgettable stay.</p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary">Book Your Stay</a>
+        <a href="#rooms" class="btn btn--ghost">Explore Rooms</a>
+      </div>
+    </div>
+    <div class="container hero__features">
+      <div class="feature" data-aos="fade-up" data-aos-delay="0">
+        <div class="feature__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true" ><path fill="currentColor" d="M12 2l2.39 4.84L20 7.27l-3.9 3.81.92 5.36L12 14.77 7.98 16.44l.92-5.36L5 7.27l5.61-.43L12 2z"/></svg>
+        </div>
+        <h3>Premium Service</h3>
+        <p>Exceptional hospitality with personalized attention.</p>
+      </div>
+      <div class="feature" data-aos="fade-up" data-aos-delay="150">
+        <div class="feature__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg>
+        </div>
+        <h3>Perfect Location</h3>
+        <p>Nestled in the scenic beauty of Baranti Village.</p>
+      </div>
+      <div class="feature" data-aos="fade-up" data-aos-delay="300">
+        <div class="feature__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/></svg>
+        </div>
+        <h3>Top Rated</h3>
+        <p>Loved by guests for comfort, cleanliness and value.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= About ================= -->
+  <section id="about" class="section">
+    <div class="container grid-2">
+      <div data-aos="fade-right">
+        <h2 class="section__title">About Us</h2>
+        <p>Kingsukh Guest House blends homely warmth with modern amenities. Whether you’re here for a quiet getaway or a family trip, we offer clean, comfortable rooms, friendly service, and easy access to Purulia’s natural beauty.</p>
+        <ul class="features">
+          <li>✔ Clean, spacious rooms</li>
+          <li>✔ Helpful staff & quick check-in</li>
+          <li>✔ Peaceful neighborhood</li>
+          <li>✔ Great value for money</li>
+        </ul>
+      </div>
+      <div class="about__media" data-aos="fade-left">
+        <img src="img/out.jpg" alt="Lounge area in Kingsukh Guest House">
+      </div>
+    </div>
+
+    <!-- Why choose us (feature pillars) -->
+    <div class="container pillars">
+      <div class="pillar" data-aos="fade-up" data-aos-delay="0">
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.1 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 6 4 4 6.5 4c1.74 0 3.41 1.01 4.1 2.55C11.09 5.01 12.76 4 14.5 4 17 4 19 6 19 8.5c0 3.78-3.4 6.86-8.05 11.54l-.85.81z"/></svg>
+        </div>
+        <h3>Warm Hospitality</h3>
+        <p>Experience genuine care and personalized service that makes you feel at home</p>
+      </div>
+      <div class="pillar" data-aos="fade-up" data-aos-delay="120">
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M19 4a7 7 0 0 0-7 7v1H9a5 5 0 0 0-5 5v3h2v-3a3 3 0 0 1 3-3h3v-3a5 5 0 0 1 5-5h3V4h-3Z"/></svg>
+        </div>
+        <h3>Natural Serenity</h3>
+        <p>Surrounded by lush greenery and peaceful landscapes of Baranti Village</p>
+      </div>
+      <div class="pillar" data-aos="fade-up" data-aos-delay="240">
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-10 10v4l10 6 10-6v-4A10 10 0 0 0 12 2m0 2a8 8 0 0 1 8 8v3.2l-8 4.8-8-4.8V12a8 8 0 0 1 8-8Z"/></svg>
+        </div>
+        <h3>Safe & Secure</h3>
+        <p>Your safety and comfort are our top priorities with 24/7 security</p>
+      </div>
+      <div class="pillar" data-aos="fade-up" data-aos-delay="360">
+        <div class="pillar__icon">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17 2H7L3 9l9 13L21 9l-4-7m-1.9 7.7L12 7l-3.1 2.7.9 3.9L12 12.3l2.2 1.3.9-3.9Z"/></svg>
+        </div>
+        <h3>Quality Assured</h3>
+        <p>Consistently maintaining high standards of cleanliness and service</p>
+      </div>
+    </div>
+
+    <!-- About deep (text + stats + collage) -->
+    <div class="container about__deep">
+      <div class="about__deep-text" data-aos="fade-right">
+        <h2 class="section__title">Your Home Away From Home</h2>
+        <p>Nestled in the picturesque Baranti Village of Purulia, Kingsukh Guest House offers a unique retreat where modern comfort meets rustic charm. Our philosophy is simple: provide a serene, comfortable environment where guests can unwind and reconnect with nature.</p>
+        <p>Since our establishment, we've been committed to offering personalized service that goes beyond expectations. Every corner of our guest house reflects our dedication to creating memorable experiences for travelers seeking peace and authenticity.</p>
+        <div class="stats">
+          <div class="stat">
+            <div class="stat__num">500+</div>
+            <div class="stat__label">Happy Guests</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">4.9</div>
+            <div class="stat__label">Average Rating</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">24/7</div>
+            <div class="stat__label">Guest Support</div>
+          </div>
+          <div class="stat">
+            <div class="stat__num">100%</div>
+            <div class="stat__label">Satisfaction</div>
+          </div>
+        </div>
+      </div>
+      <div class="about__deep-media" data-aos="fade-left">
+        <div class="collage">
+          <img class="collage__lg" src="img/large.jpg" alt="Resort pool view">
+          <img class="collage__sm" src="img/room1.jpg" alt="Cozy room interior">
+          <img class="collage__sm" src="img/recep.jpg" alt="Reception area">
+          <img class="collage__sm" src="img/service.jpg" alt="Service area">
+          <img class="collage__sm" src="img/flower.jpg" alt="Garden flower">
+
+        </div>
+      </div>
+    </div>
+
+    <!-- CTA banner -->
+    <div class="container cta-banner" data-aos="zoom-in">
+      <h2>Ready to Experience Kingsukh?</h2>
+      <p>Book your stay today and discover why guests choose us for their perfect getaway.</p>
+      <a href="#contact" class="btn btn--primary btn--lg">Book Your Stay Now</a>
+    </div>
+  </section>
+
+  <!-- ================= Rooms ================= -->
+  <section id="rooms" class="section section--alt">
+    <div class="container">
+      <h2 class="section__title center">Our Rooms</h2>
+      <p class="section__lead center">Choose the space that fits your stay.</p>
+
+      <div class="cards">
+        <article class="card" data-aos="fade-up" data-aos-delay="0">
+          <img src="img/small.jpg" alt="Cozy Haven room" class="card__img">
+          <div class="card__body">
+            <h3>Cozy Haven</h3>
+            <p>Perfect for solo travelers or couples — a warm and relaxing space.</p>
+            <div class="card__meta">
+              <span class="price">₹1000<span class="per">/night</span></span>
+              <a href="#contact" class="btn btn--small btn--primary">Book</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card" data-aos="fade-up" data-aos-delay="150">
+          <img src="img/large.jpg" alt="Spacious Serenity room" class="card__img">
+          <div class="card__body">
+            <h3>Spacious Serenity</h3>
+            <p>Ideal for families with airy interiors and essential amenities.</p>
+            <div class="card__meta">
+              <span class="price">₹1500<span class="per">/night</span></span>
+              <a href="#contact" class="btn btn--small btn--primary">Book</a>
+            </div>
+          </div>
+        </article>
+
+        
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Gallery ================= -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <h2 class="section__title center">Gallery</h2>
+      <p class="section__lead center">A glimpse of our spaces.</p>
+
+      <div class="gallery" data-aos="zoom-in-up">
+        <a href="img/ayodhya.webp"><img src="img/ayodhya.webp" alt="Guest house exterior"></a>
+        <a href="img/baranti.webp"><img src="img/baranti.webp" alt="Room interior"></a>
+        <a href="img/mithonDam.webp"><img src="img/mithonDam.webp" alt="Dining area"></a>
+        <a href="img/recep.jpg"><img src="img/recep.jpg" alt="Reception area"></a>
+        <a href="img/service.jpg"><img src="img/service.jpg" alt="Service area"></a>
+        <a href="img/1.jpg"><img src="img/1.jpg" alt="Ride view"></a>
+        <a href="img/flower.jpg"><img src="img/flower.jpg" alt="Flower view"></a>
+      </div>
+
+      <!-- Lightbox -->
+      <div id="lightbox" aria-hidden="true">
+        <button class="lightbox__close" id="lightboxClose" aria-label="Close">×</button>
+        <img id="lightboxImg" alt="Gallery image preview">
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Contact ================= -->
+  <section id="contact" class="section section--alt">
+    <div class="container grid-2">
+      <div>
+        <h2 class="section__title">Send us a Message</h2>
+        <p>Have a question or want to check availability? Tell us a bit about your trip and we’ll get back shortly.</p>
+        <form class="form" id="contactForm" data-aos="fade-up">
+          <!-- Progress Indicator -->
+          <div class="form__progress">
+            <div class="progress-step active" data-step="1"></div>
+            <div class="progress-step" data-step="2"></div>
+            <div class="progress-step" data-step="3"></div>
+            <div class="progress-step" data-step="4"></div>
+            <div class="progress-step" data-step="5"></div>
+            <div class="progress-step" data-step="6"></div>
+            <div class="progress-step" data-step="7"></div>
+          </div>
+          
+          <div class="form__grid">
+            <div class="field">
+              <label for="name">Full Name *</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div class="field">
+              <label for="email">Email Address *</label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+            </div>
+            <div class="field">
+              <label for="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 9876543210">
+            </div>
+            <div class="field">
+              <label for="guests">Number of Guests</label>
+              <select id="guests" name="guests">
+                <option value="1">1 Guest</option>
+                <option value="2">2 Guests</option>
+                <option value="3">3 Guests</option>
+                <option value="4">4 Guests</option>
+                <option value="5">5 Guests</option>
+                <option value="6">6+ Guests</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="checkin">Check-in Date</label>
+              <input type="date" id="checkin" name="checkin" placeholder="mm/dd/yyyy">
+            </div>
+            <div class="field">
+              <label for="checkout">Check-out Date</label>
+              <input type="date" id="checkout" name="checkout" placeholder="mm/dd/yyyy">
+            </div>
+            <div class="field field--full">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your preferences, special requests, or any questions you have..."></textarea>
+            </div>
+            <div class="field field--full">
+              <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+            </div>
+          </div>
+          <p class="form__note">* Required fields • This demo form just shows a success message.</p>
+        </form>
+      </div>
+      <div class="map__wrap" data-aos="fade-left">
+        <!-- Embedded Google Map --> 
+        <div class="map__placeholder">
+          <iframe
+            src="https://www.google.com/maps?q=Kingsukh%20Guest%20House%20Purulia&output=embed"
+            loading="lazy"
+            allowfullscreen=""
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Footer (New) ================= -->
+  <footer class="footer">
+    <div class="container footer__grid" data-aos="fade-in">
+      <div class="footer__col">
+        <a class="logo logo--inverse" href="#hero">Kingsukh<span>Guest House</span></a>
+        <p class="muted">Discover peace and comfort in the heart of Baranti Village, Purulia. Our guest house blends modern amenities with rustic charm for a memorable stay.</p>
+        <div class="socials">
+          <a href="#" aria-label="Facebook" class="social">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22 12a10 10 0 1 0-11.5 9.9v-7H8v-2.9h2.5V9.5c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.8-1.6 1.5v1.9H16l-.4 2.9h-2.1v7A10 10 0 0 0 22 12"/></svg>
+          </a>
+          <a href="https://www.instagram.com/kingsukhguesthouse/" aria-label="Instagram" class="social" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5m5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10m6.5-.9a1.1 1.1 0 1 0 0 2.2 1.1 1.1 0 0 0 0-2.2Z"/></svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="social">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M22 5.9c-.7.3-1.5.6-2.2.7.8-.5 1.4-1.2 1.7-2.1-.7.4-1.6.8-2.4 1A3.9 3.9 0 0 0 12 8.6a11 11 0 0 1-8-4.1 3.9 3.9 0 0 0 1.2 5.2c-.6 0-1.3-.2-1.8-.5v.1c0 1.9 1.4 3.6 3.2 4-.4.1-.9.2-1.4.2-.3 0-.6 0-.9-.1.6 1.7 2.3 2.9 4.2 3a7.9 7.9 0 0 1-4.9 1.7H3a11.2 11.2 0 0 0 6 1.8c7.2 0 11.2-6 11.2-11.2v-.5c.7-.5 1.4-1.2 1.8-2Z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer__col">
+        <h4>Quick Links</h4>
+        <ul class="footer__links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#rooms">Room Types & Prices</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contact Info</h4>
+        <ul class="contact">
+          <li>
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 10a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/></svg></span>
+            Beside Barshal Water Tank<br>Manpur, Barhanti<br>West Bengal 723156
+          </li>
+          <li>
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.2 1 .4 2 .7 3 .8.5.1.9.5.9 1v3.5c0 .6-.5 1.1-1.1 1.1C9.7 21.4 2.6 14.3 2.6 5.1 2.6 4.5 3 4 3.6 4H7c.5 0 .9.4 1 1 0 1 .3 2 .8 3 .1.4 0 .8-.2 1.1l-2 1.7z"/></svg></span>
+            +91 9007062180
+          </li>
+          <li>
+            <span class="icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2m-1.2 3L12 12.2 5.2 7h13.6z"/></svg></span>
+            kkghosh0099@gmail.com
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container copyright">
+      <p class="tiny muted">© 2025 Kingsukh Guest House. Made with ❤ for our guests.</p>
+      <div class="footer__legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Booking Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Floating Button -->
+  <a href="https://wa.me/919007062180?text=Hi! I'm interested in booking a stay at Kingsukh Guest House. Can you help me with availability and rates?" 
+     class="whatsapp-float" 
+     target="_blank" 
+     rel="noopener noreferrer"
+     aria-label="Contact us on WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true" class="whatsapp-icon">
+      <path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488"/>
+    </svg>
+    <span class="whatsapp-text">Chat with us</span>
+  </a>
+
+  <!-- Back to Top Button -->
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+  </button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- AOS (Animate On Scroll) JS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
